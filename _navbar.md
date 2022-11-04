@@ -1,15 +1,21 @@
 <!-- _navbar.md -->
 
-* 链接到我
-  * [博客园地址](https://www.cnblogs.com/Can-daydayup/)
-  * [Github地址](https://github.com/YSGStudyHards)
-  * [知乎地址](https://www.zhihu.com/people/ysgdaydayup)
-  * [掘金地址](https://juejin.cn/user/2770425031690333/posts)
-  * [Gitee地址](https://gitee.com/ysgdaydayup)
-
+* 知名网站
+  * [哔哩哔哩](https://www.bilibili.com/)
+  * [Github](https://github.com/hearbeatl)
+  * [思否](https://segmentfault.com/)
+  * [前端学习网站](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
+  * [Gitee](https://gitee.com/)
+  
+* 查阅资料
+  * [前端](https://www.w3school.com.cn/)
+  * [自学cs](https://csdiy.wiki/)
 
 * 友情链接
   * [Docsify](https://docsify.js.org/#/)
   * [博客园](https://www.cnblogs.com/)
   * [Markdown 基本语法](https://markdown.com.cn/basic-syntax/)
+
+
+* [:us:, :uk:](/)
 
