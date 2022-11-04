@@ -13,5 +13,4 @@
 
 <!-- 背景色 -->
 
-![backgroundlogo](images/image-2022110301.jpg)
-![color](#f0f0f0)
+![backgroundlogo](images/image-2022110301.jpg )

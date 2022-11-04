@@ -8,6 +8,18 @@
     <meta name="description" content="前端 成长 记录">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+    /* 清除内外边距 */
+    body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+    dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+    pre, /* text formatting elements 文本格式元素 */
+    fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+    th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+    }
+    </style>
+
     <!-- 设置浏览器图标 -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -36,8 +48,6 @@
             subMaxLevel: 4,
             // 小屏设备下合并导航栏到侧边栏
             mergeNavbar: true,
-            //封面作为首页
-            onlyCover: true,
         }
     </script>
     <script>
@@ -45,7 +55,8 @@
         window.$docsify = {
             search: {
                 maxAge: 86400000,// 过期时间，单位毫秒，默认一天
-                paths: auto,// 注意：仅适用于 paths: 'auto' 模式
+                paths: auto,
+                    //注意：仅适用于 paths: 'auto' 模式
                 placeholder: '搜索',
                 // 支持本地化
                 placeholder: {
@@ -67,8 +78,11 @@
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
     <!-- 搜索功能支持 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<!--    复制到剪切板上-->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
     <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
 </body>
 
 </html>

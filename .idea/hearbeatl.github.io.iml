@@ -8,5 +8,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="docsify-themeable" level="application" />
+    <orderEntry type="library" name="disqus" level="application" />
+    <orderEntry type="library" name="docsify-pagination" level="application" />
+    <orderEntry type="library" name="gitalk" level="application" />
+    <orderEntry type="library" name="prism-bash" level="application" />
+    <orderEntry type="library" name="prism-php" level="application" />
   </component>
 </module>

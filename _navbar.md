@@ -16,6 +16,5 @@
   * [博客园](https://www.cnblogs.com/)
   * [Markdown 基本语法](https://markdown.com.cn/basic-syntax/)
 
-
-* [:us:, :uk:](/)
+  
 
