@@ -1,5 +1,4 @@
 <!-- _coverpage.md -->
-![logo](images/image-2022110301.jpg)
 # 心灵跳动的空间
 
 > 一个具有八块腹肌的真男人

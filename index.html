@@ -8,17 +8,6 @@
     <meta name="description" content="前端 成长 记录">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <style>
-    /* 清除内外边距 */
-    body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
-    dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
-    pre, /* text formatting elements 文本格式元素 */
-    fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
-    th, td { /* table elements 表格元素 */
-    margin: 0;
-    padding: 0;
-    }
-    </style>
 
     <!-- 设置浏览器图标 -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -57,14 +46,12 @@
                 maxAge: 86400000,// 过期时间，单位毫秒，默认一天
                 paths: auto,
                     //注意：仅适用于 paths: 'auto' 模式
-                placeholder: '搜索',
                 // 支持本地化
                 placeholder: {
-                    '/zh-cn/': '搜索',
-                    '/': 'Type to search'
+                    '/': '搜索'
                 },
                 noData: '找不到结果',
-                depth: 4,
+                depth: 3,
                 hideOtherSidebarContent: false,
                 namespace: 'Docsify-Guide',
             }
